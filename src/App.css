@@ -1,38 +1,50 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homePage {
+  list-style-type: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homePage li {
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto 20px;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myaccount li {
+  display: block;
+  text-align: left;
 }
-
-.App-link {
-  color: #61dafb;
+.link {
+  text-decoration: none;
+  margin: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 20vw;
+  height: 30vh;
+  padding: 2%;
+}
+.formData label {
+  padding: 10px;
+}
+.formData input {
+  margin: 10px;
+  border-radius: 5px;
+}
+.benefits {
+  padding: 5%;
+  margin: 5%;
+  text-align: left;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+}
+.buttons {
+  text-align: right;
+}
+.myaccount {
+  padding: 5%;
+  margin: 5%;
+  text-align: left;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
 }
